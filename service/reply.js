@@ -17,7 +17,7 @@ export async function reply(replyToken, message) {
       headers: header,
     }
   );
-  // return resp;
+  return resp;
 }
 
 
